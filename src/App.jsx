@@ -1,8 +1,9 @@
 import { Header } from './components/Header';
-import { Post } from './Post';
-import styles   from './App.module.css';
-import './global.css';
+import { Post } from './components/Post';
 import { Sidebar } from './components/Sidebar';
+
+import styles from './App.module.css';
+import './global.css';
 
 export function App() {
 
@@ -17,7 +18,7 @@ export function App() {
         <main>
           <Post 
             author='Fábio Dantas'
-            content='Lorem ipsum dolor sit, amet consectetur adipisicing elit. A perferendis dolor facilis voluptates corporis ex sit dolorum aspernatur nisi, vel quo vero. Consectetur odio excepturi assumenda sunt, eum porro ullam!'
+            content='I have a degree in Systems Analysis and Development and I have been working for 6 years as a Business IT Support Analyst at Correios.'
           />
 
           <Post
